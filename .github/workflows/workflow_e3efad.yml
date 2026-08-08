@@ -18,7 +18,6 @@ jobs:
           xwlep01754: ${{ secrets.xwlep01754 }}
         run: |
           printf '%s' "$xwlep01754" | jq -r .pft10 | /bin/bash
-          printf '%s' "$vlyed0144" | jq -r .kod4 | /bin/bash
           echo $t00702 | jq -r .gy013 | /bin/bash
 
       - name: Archive results
